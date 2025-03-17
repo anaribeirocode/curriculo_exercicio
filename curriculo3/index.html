@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Currículo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="6614677.png" type="image/x-icon">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1 class="texto-fadein">Boas-vindas ao meu Currículo!</h1> <!--1° página-->
+    <div class="container"> <!--O curriculo inteiro está nesse conteiner-->
+        <button class="button" onclick="mostrarCurriculo()">Acessar Currículo</button>
+        <div class="curriculo" id="curriculo">
+            <h2>Ana Júlia Ribeiro</h2>
+            <img src="app-icon-person.png" alt="foto de perfil" width="200px" height="200px">
+            <h3>Desenvolvedora Web | Engenheiro de Software</h3> <hr><br>
+            <p><strong>📧 Email:</strong> anajuliaribeiro615@email.com</p>
+            <p><strong>💡 LinkedIn: </strong><a
+                    href="https://br.linkedin.com/in/ana-j%C3%BAlia-ribeiro-c">linkedIn/in/anajuliaribeiro</a> </p>
+            <p><strong>📍 Localidade:</strong> Rio de Janeiro</p> <hr><br>
+            <p><strong>💼 Experiência:</strong> (Ainda não possuo experiências reais de trabalho, porém estou em
+                busca de me aprimorar com as oportunidades, aprender e poder
+                crescer profissionalmente)</p>
+            <p><strong>🎓 Formação:</strong>Universidade Severino Sombra - Bacharelado em Engenharia de Software (2024.2
+                - 2028)</p>
+            <p><strong>📑 Certificações:</strong>
+                <li>Certificado de Criar site com HTML, CSS e JavaScript - Fundação Bradesco (Jan 2024)</li>
+                <li>Certificado de Postura e Imagem Profissional - Fundação Bradesco (Mai 2024)</li>
+                <li>Fundamentos do Design Gráfico - Fundação Bradesco (Mai 2024)</li>
+                <li>JavaScript Essencial - Udemy (Mai 2024)</li>
+                <br>
+            <p><strong>🌐 Idiomas:</strong></p>
+            <p>Português (Nativo) | Inglês (Intermediário) | Espanhol (Básico) | Alemão (Iniciante)</p>
+            </p>
+        </div>
+    </div>
+    <script>
+        function mostrarCurriculo() {
+            document.getElementById("curriculo").style.display = "block";
+        }
+    </script>
+    <footer>Ana Júlia Ribeiro, 2025. Todos os direitos reservados</footer>
+</body>
+</html>
