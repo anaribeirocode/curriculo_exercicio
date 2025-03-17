@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://source.unsplash.com/1600x900/?abstract') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.container {
+    display: flex;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.sidebar {
+    width: 35%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    color: white;
+    text-align: center;
+}
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.sidebar h2, .sidebar p, .sidebar ul {
+    margin: 10px 0;
+}
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+.sidebar ul li {
+    margin: 5px 0;
+}
+.sidebar a {
+    color: white;
+    text-decoration: none;
+}
+.main-content {
+    width: 65%;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    color: black;
+}
+h2 {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: azure;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
